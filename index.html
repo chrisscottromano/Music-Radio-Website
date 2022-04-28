@@ -170,7 +170,7 @@ if (audioPlayers.length) {
       let btnSvg = current.querySelector(".useBtn");
       if (!audio.paused) {
         audio.pause();
-		playerButton.style.opacity = 0.25;
+		playerButton.style.opacity = null;
 		text.style.opacity = 0.5;
       } else {
         audio.play();
